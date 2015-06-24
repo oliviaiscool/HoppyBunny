@@ -2,7 +2,7 @@ import Foundation
 
 class MainScene: CCNode, CCPhysicsCollisionDelegate {
     
-    var points : NSInteger = 0
+    var points : NSInteger = 0 //mutable var for score
     weak var scoreLabel : CCLabelTTF!
     
     weak var hero: CCSprite!
